@@ -15,5 +15,5 @@ def score(u):
  "trust":85,
  "id":anon(u)
 }
-print (score(My idea"))
+print (score("My idea"))
 print (score("spam offer"))
