@@ -13,7 +13,7 @@ def evaluate_talent(student):
    score+= innovation_index(student['project'])*0.30
   if score>=8.5:
   return f"TOP"
-  return f"CONTINUE"
+return f"CONTINUE"
  
 #Test run 
 student={'skills':['Design',Commerce','coding'],
