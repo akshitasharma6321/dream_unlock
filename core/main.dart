@@ -11,7 +11,7 @@ crossAxisCount:2,
  Card(child:Center(
  child:Text('Design'))),
  Card(child:Center(
- child:Text('commerce'))),
+ child:Text('Commerce'))),
  Card(child:Center(
  child:Text('Medical'))),
  Card(child:Center(
