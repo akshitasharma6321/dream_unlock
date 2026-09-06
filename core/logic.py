@@ -11,9 +11,9 @@ def evaluate_talent(student):
     score+=   assess_skills(student['skills'])*0.40
    score+= peer_review(student['submission'])*0.30
    score+= innovation_index(student['project'])*0.30
-  if score>=8.5:
+   if score>=8.5:
       return "TOP"
-  return "CONTINUE"
+   return "CONTINUE"
  
 #Test run 
 student={'skills':['Design',Commerce','coding'],
