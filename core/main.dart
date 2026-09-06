@@ -16,6 +16,10 @@ crossAxisCount:2,
  child:Text('Medical'))),
  Card(child:Center(
  child:Text('Technology'))),
+ Card(child:center(
+ child:Text('Humanities'))),
+ Card(child:Center(
+ child:Text('Science'))),
  ]
 )
 )
