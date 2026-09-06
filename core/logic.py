@@ -1,7 +1,7 @@
-Dream unlock_core logic
+
 def assess_skills(skills):
-    return min (10,len(skills)*
-def pee_review (submission):
+    return min (10,len(skills))
+def peer_review (submission):
  # demo me 8.5/10
     return 8.5
 def innovation_index (project):
