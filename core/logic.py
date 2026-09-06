@@ -9,9 +9,9 @@ def innovation_index (project):
 def evaluate_talent(studnet):
     score=0
     score+=assess_skills(student['skills'])*0.40
-score+=peer_review(student['submission']*0.30
+score+=peer_review(student['submission'])*0.30
 score+=innovation_index(student['project'])*0.30
-  if score>=8.5 
+  if score>=8.5:
 return f"TOP PERFORMER->GLOBAL OPPORTUNITY (score:{score:.1f})"
 return f"CONTINUE=>New challenge assigned (score:{score:.1f})"
  
